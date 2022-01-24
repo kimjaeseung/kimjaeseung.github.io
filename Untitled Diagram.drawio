@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2022-01-24T04:36:38.030Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/94.0.4606.81 Safari/537.36" etag="Ud0Oh9Syjt241qv6-_6Z" version="16.4.5" type="github" pages="2">
+<mxfile host="app.diagrams.net" modified="2022-01-24T06:21:01.785Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/94.0.4606.81 Safari/537.36" etag="JEGqjlq7ZgXgx_QFJbPf" version="16.4.5" type="github" pages="2">
   <diagram id="C5RBs43oDa-KdzZeNtuy" name="Page-1">
-    <mxGraphModel dx="1422" dy="794" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="3300" pageHeight="4681" math="0" shadow="0">
+    <mxGraphModel dx="2585" dy="1444" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="3300" pageHeight="4681" math="0" shadow="0">
       <root>
         <mxCell id="WIyWlLk6GJQsqaUBKTNV-0" />
         <mxCell id="WIyWlLk6GJQsqaUBKTNV-1" parent="WIyWlLk6GJQsqaUBKTNV-0" />
@@ -101,7 +101,7 @@
           <mxGeometry x="1012.5" y="330" width="195" height="24" as="geometry" />
         </mxCell>
         <mxCell id="Q1A1QMlhAeU9S2PwM948-11" value="excel.py" style="swimlane;fontStyle=2;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeLast=0;collapsible=1;marginBottom=0;rounded=0;shadow=0;strokeWidth=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="212.5" y="480" width="210" height="120" as="geometry">
+          <mxGeometry x="232.5" y="480" width="210" height="120" as="geometry">
             <mxRectangle x="230" y="140" width="160" height="26" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
@@ -115,7 +115,7 @@
           <mxGeometry y="60" width="210" height="60" as="geometry" />
         </mxCell>
         <mxCell id="Q1A1QMlhAeU9S2PwM948-15" value="main.py&#xa;&#xa;" style="swimlane;fontStyle=0;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeLast=0;collapsible=1;marginBottom=0;rounded=0;shadow=0;strokeWidth=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="202.5" y="720" width="230" height="70" as="geometry">
+          <mxGeometry x="222.5" y="720" width="230" height="70" as="geometry">
             <mxRectangle x="130" y="380" width="160" height="26" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
@@ -124,12 +124,12 @@
         </mxCell>
         <mxCell id="Q1A1QMlhAeU9S2PwM948-17" value="" style="endArrow=block;endSize=10;endFill=0;shadow=0;strokeWidth=1;rounded=0;edgeStyle=elbowEdgeStyle;elbow=vertical;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="Q1A1QMlhAeU9S2PwM948-15" target="Q1A1QMlhAeU9S2PwM948-11">
           <mxGeometry width="160" relative="1" as="geometry">
-            <mxPoint x="192.5" y="563" as="sourcePoint" />
-            <mxPoint x="192.5" y="563" as="targetPoint" />
+            <mxPoint x="212.5" y="563" as="sourcePoint" />
+            <mxPoint x="212.5" y="563" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="Q1A1QMlhAeU9S2PwM948-18" value="import common_method as comm" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="220" y="650" width="195" height="24" as="geometry" />
+          <mxGeometry x="240" y="650" width="195" height="24" as="geometry" />
         </mxCell>
         <mxCell id="Q1A1QMlhAeU9S2PwM948-19" value="excel.py" style="swimlane;fontStyle=2;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeLast=0;collapsible=1;marginBottom=0;rounded=0;shadow=0;strokeWidth=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
           <mxGeometry x="450" y="480" width="390" height="120" as="geometry">
@@ -192,6 +192,115 @@
         </mxCell>
         <mxCell id="Q1A1QMlhAeU9S2PwM948-35" value="import common_method as comm" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
           <mxGeometry x="947.5" y="650" width="195" height="24" as="geometry" />
+        </mxCell>
+        <mxCell id="Q1A1QMlhAeU9S2PwM948-46" value="common_method.py&#xa;" style="swimlane;fontStyle=2;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeLast=0;collapsible=1;marginBottom=0;rounded=0;shadow=0;strokeWidth=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="1340" y="120" width="320" height="110" as="geometry">
+            <mxRectangle x="230" y="140" width="160" height="26" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Q1A1QMlhAeU9S2PwM948-47" value="getFilename(script)" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="Q1A1QMlhAeU9S2PwM948-46">
+          <mxGeometry y="26" width="320" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="Q1A1QMlhAeU9S2PwM948-48" value="" style="line;html=1;strokeWidth=1;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;" vertex="1" parent="Q1A1QMlhAeU9S2PwM948-46">
+          <mxGeometry y="52" width="320" height="8" as="geometry" />
+        </mxCell>
+        <mxCell id="Q1A1QMlhAeU9S2PwM948-49" value="resource_zone.py 스크립트 파일의 파일명 추출" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="Q1A1QMlhAeU9S2PwM948-46">
+          <mxGeometry y="60" width="320" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="Q1A1QMlhAeU9S2PwM948-50" value="main.py&#xa;&#xa;" style="swimlane;fontStyle=0;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeLast=0;collapsible=1;marginBottom=0;rounded=0;shadow=0;strokeWidth=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="1392.5" y="350" width="215" height="70" as="geometry">
+            <mxRectangle x="130" y="380" width="160" height="26" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Q1A1QMlhAeU9S2PwM948-51" value="scriptName = &#xa;comm.getFilename(resource_zone)" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rounded=0;shadow=0;html=0;" vertex="1" parent="Q1A1QMlhAeU9S2PwM948-50">
+          <mxGeometry y="26" width="215" height="44" as="geometry" />
+        </mxCell>
+        <mxCell id="Q1A1QMlhAeU9S2PwM948-52" value="" style="endArrow=block;endSize=10;endFill=0;shadow=0;strokeWidth=1;rounded=0;edgeStyle=elbowEdgeStyle;elbow=vertical;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="Q1A1QMlhAeU9S2PwM948-50" target="Q1A1QMlhAeU9S2PwM948-46">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="1320" y="203" as="sourcePoint" />
+            <mxPoint x="1320" y="203" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Q1A1QMlhAeU9S2PwM948-53" value="import common_method as comm" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="1392.5" y="290" width="195" height="24" as="geometry" />
+        </mxCell>
+        <mxCell id="Q1A1QMlhAeU9S2PwM948-54" value="common_method.py&#xa;" style="swimlane;fontStyle=2;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeLast=0;collapsible=1;marginBottom=0;rounded=0;shadow=0;strokeWidth=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="1670" y="120" width="320" height="110" as="geometry">
+            <mxRectangle x="230" y="140" width="160" height="26" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Q1A1QMlhAeU9S2PwM948-55" value="getFilename(script)" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="Q1A1QMlhAeU9S2PwM948-54">
+          <mxGeometry y="26" width="320" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="Q1A1QMlhAeU9S2PwM948-56" value="" style="line;html=1;strokeWidth=1;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;" vertex="1" parent="Q1A1QMlhAeU9S2PwM948-54">
+          <mxGeometry y="52" width="320" height="8" as="geometry" />
+        </mxCell>
+        <mxCell id="Q1A1QMlhAeU9S2PwM948-57" value="365일 이상 지난 기록 파일(./history/resource_zone) 삭제&#xa;&#xa;파일 위치 : ./history/*" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="Q1A1QMlhAeU9S2PwM948-54">
+          <mxGeometry y="60" width="320" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="Q1A1QMlhAeU9S2PwM948-58" value="main.py&#xa;&#xa;" style="swimlane;fontStyle=0;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeLast=0;collapsible=1;marginBottom=0;rounded=0;shadow=0;strokeWidth=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="1722.5" y="350" width="215" height="70" as="geometry">
+            <mxRectangle x="130" y="380" width="160" height="26" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Q1A1QMlhAeU9S2PwM948-59" value="comm.expireHistoryFile(scriptName)" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rounded=0;shadow=0;html=0;" vertex="1" parent="Q1A1QMlhAeU9S2PwM948-58">
+          <mxGeometry y="26" width="215" height="44" as="geometry" />
+        </mxCell>
+        <mxCell id="Q1A1QMlhAeU9S2PwM948-60" value="" style="endArrow=block;endSize=10;endFill=0;shadow=0;strokeWidth=1;rounded=0;edgeStyle=elbowEdgeStyle;elbow=vertical;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="Q1A1QMlhAeU9S2PwM948-58" target="Q1A1QMlhAeU9S2PwM948-54">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="1650" y="203" as="sourcePoint" />
+            <mxPoint x="1650" y="203" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Q1A1QMlhAeU9S2PwM948-61" value="import common_method as comm" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="1722.5" y="290" width="195" height="24" as="geometry" />
+        </mxCell>
+        <mxCell id="Q1A1QMlhAeU9S2PwM948-63" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="1607.5" y="390" as="sourcePoint" />
+            <mxPoint x="1718" y="390" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Q1A1QMlhAeU9S2PwM948-64" value="resource_zone.py" style="swimlane;fontStyle=2;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeLast=0;collapsible=1;marginBottom=0;rounded=0;shadow=0;strokeWidth=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="222.5" y="890" width="357.5" height="180" as="geometry">
+            <mxRectangle x="230" y="140" width="160" height="26" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Q1A1QMlhAeU9S2PwM948-65" value="getApiData(authJson, logger)" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="Q1A1QMlhAeU9S2PwM948-64">
+          <mxGeometry y="26" width="357.5" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="Q1A1QMlhAeU9S2PwM948-66" value="" style="line;html=1;strokeWidth=1;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;" vertex="1" parent="Q1A1QMlhAeU9S2PwM948-64">
+          <mxGeometry y="52" width="357.5" height="8" as="geometry" />
+        </mxCell>
+        <mxCell id="Q1A1QMlhAeU9S2PwM948-67" value="매개변수&#xa;* authJson : CloudStack API 요청을 위한 접근 정보를 저장한 Dictionary&#xa;* logger : Logging 객체&#xa;반환값&#xa;0번째 : Directionary 객체. Zone 사용률 취합 정보 반환" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="Q1A1QMlhAeU9S2PwM948-64">
+          <mxGeometry y="60" width="357.5" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="Q1A1QMlhAeU9S2PwM948-68" value="main.py&#xa;&#xa;" style="swimlane;fontStyle=0;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeLast=0;collapsible=1;marginBottom=0;rounded=0;shadow=0;strokeWidth=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="293.75" y="1180" width="215" height="70" as="geometry">
+            <mxRectangle x="130" y="380" width="160" height="26" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Q1A1QMlhAeU9S2PwM948-69" value="comm.expireHistoryFile(scriptName)" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rounded=0;shadow=0;html=0;" vertex="1" parent="Q1A1QMlhAeU9S2PwM948-68">
+          <mxGeometry y="26" width="215" height="44" as="geometry" />
+        </mxCell>
+        <mxCell id="Q1A1QMlhAeU9S2PwM948-70" value="" style="endArrow=block;endSize=10;endFill=0;shadow=0;strokeWidth=1;rounded=0;edgeStyle=elbowEdgeStyle;elbow=vertical;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="Q1A1QMlhAeU9S2PwM948-68" target="Q1A1QMlhAeU9S2PwM948-64">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="202.5" y="973" as="sourcePoint" />
+            <mxPoint x="202.5" y="973" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Q1A1QMlhAeU9S2PwM948-71" value="import common_method as comm" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="303.75" y="1110" width="195" height="24" as="geometry" />
+        </mxCell>
+        <mxCell id="Q1A1QMlhAeU9S2PwM948-82" value="" style="curved=1;endArrow=classic;html=1;rounded=0;fontColor=#FF9999;exitX=-0.004;exitY=0.273;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="Q1A1QMlhAeU9S2PwM948-67">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="120" y="970" as="sourcePoint" />
+            <mxPoint x="220" y="370" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="170" y="970" />
+              <mxPoint x="160" y="590" />
+            </Array>
+          </mxGeometry>
         </mxCell>
       </root>
     </mxGraphModel>
