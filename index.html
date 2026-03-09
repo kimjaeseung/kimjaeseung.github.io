@@ -310,13 +310,13 @@
     const resetBtn = document.getElementById("resetBtn");
     const rebaseBtn = document.getElementById("rebaseBtn");
 
-    let baseTime = new Date();
     let lastRenderedTime = "";
 
-    function toHHMM(date) {
+    function toHHMMSS(date) {
       const hh = String(date.getHours()).padStart(2, "0");
       const mm = String(date.getMinutes()).padStart(2, "0");
-      return hh + ":" + mm;
+      const ss = String(date.getSeconds()).padStart(2, "0");
+      return hh + ":" + mm + ":" + ss;
     }
 
     function getSelectedMinutes() {
@@ -338,7 +338,11 @@
       });
     }
 
-    function animateIfChanged(nextTime) {
+    function animateIfChanged(nextTime, shouldAnimate) {
+      if (!shouldAnimate) {
+        lastRenderedTime = nextTime;
+        return;
+      }
       if (nextTime === lastRenderedTime) {
         return;
       }
@@ -349,38 +353,39 @@
       endTimeEl.classList.add("pulse");
     }
 
-    function render() {
+    function render(shouldAnimate = false) {
+      const baseTime = new Date();
       const totalMinutes = getSelectedMinutes();
       const expectedEnd = new Date(baseTime.getTime() + totalMinutes * 60000);
-      const formattedBase = toHHMM(baseTime);
-      const formattedEnd = toHHMM(expectedEnd);
+      const formattedBase = toHHMMSS(baseTime);
+      const formattedEnd = toHHMMSS(expectedEnd);
 
       syncCheckedStyle();
       baseTimeEl.textContent = formattedBase;
       totalMinutesEl.textContent = totalMinutes + "분";
       endTimeEl.textContent = formattedEnd;
-      animateIfChanged(formattedEnd);
+      animateIfChanged(formattedEnd, shouldAnimate);
     }
 
     function clearSelections() {
       checkboxes.forEach((checkbox) => {
         checkbox.checked = false;
       });
-      render();
+      render(true);
     }
 
     checkboxes.forEach((checkbox) => {
-      checkbox.addEventListener("change", render);
+      checkbox.addEventListener("change", () => render(true));
     });
 
     resetBtn.addEventListener("click", clearSelections);
 
     rebaseBtn.addEventListener("click", () => {
-      baseTime = new Date();
-      render();
+      render(true);
     });
 
     render();
+    setInterval(render, 1000);
   </script>
 </body>
 </html>
