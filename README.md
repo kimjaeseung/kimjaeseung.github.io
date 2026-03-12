@@ -11,12 +11,14 @@
 
 ## 로컬 실행
 
+저장소 루트의 `index.html`은 GitHub Pages 배포용(빌드 결과)이라, 개발 시에는 `npm run dev`가 `index.dev.html`을 복사한 뒤 Vite를 띄웁니다.
+
 ```bash
 npm install
 npm run dev
 ```
 
-브라우저에서 `http://localhost:5173/calcurlator/` 접속 (Vite base 경로 포함)
+브라우저에서 `http://localhost:5173/` 접속
 
 ## 빌드
 

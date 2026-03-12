@@ -5,7 +5,7 @@
   "type": "module",
   "homepage": "https://kimjaeseung.github.io/",
   "scripts": {
-    "dev": "vite",
+    "dev": "cp index.dev.html index.html && vite",
     "build": "tsc -b && vite build",
     "preview": "vite preview",
     "deploy": "npm run build && gh-pages -d dist"
