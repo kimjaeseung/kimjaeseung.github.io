@@ -1,49 +1,67 @@
-# 물리치료 시간계산기
+# Echo Legacy Books (데모 버전)
 
-물리치료실에서 치료 항목을 선택하면 기준 시간에 소요 시간을 자동 합산해 예상 종료 시간을 보여주는 모바일 웹앱입니다.
+당신의 이야기를 한 권의 책으로 남기는 자서전 작성 서비스입니다.
 
-## 파일 구조
+## 기술 스택
 
-```text
-.
-├── index.html
-└── README.md
-```
-
-- 단일 파일 앱: `index.html`
-- 외부 라이브러리 없음 (Google Fonts만 사용)
-
-## 기능
-
-- 기준 시간: 페이지 로드 시점의 현재 시각(`new Date()`)
-- 항목(A/B/C/D/F) 다중 선택 가능
-- 선택 즉시 총 추가 시간과 예상 종료 시간이 실시간 반영
-- `초기화` 버튼: 체크박스 전체 해제
-- `기준 시간 리셋` 버튼: 기준 시간을 현재 시각으로 갱신
-- 시간 표기: 24시간제 `HH:MM` (자정 넘김 자동 처리)
+- React 18 + TypeScript
+- Vite 5
+- Tailwind CSS 3
+- React Router v6
 
 ## 로컬 실행
 
-정적 파일이므로 아래 중 하나로 실행할 수 있습니다.
-
-1) 파일 더블클릭으로 브라우저에서 열기  
-2) 간단한 서버 실행
-
 ```bash
-python3 -m http.server 8080
+npm install
+npm run dev
 ```
 
-이후 브라우저에서 `http://localhost:8080` 접속
+브라우저에서 `http://localhost:5173/calcurlator/` 접속 (Vite base 경로 포함)
 
-## GitHub Pages 배포 방법
+## 빌드
 
-1. GitHub에서 새 public 레포지토리 생성
-2. `index.html` 파일 업로드 (또는 git push)
-3. 레포지토리 `Settings` -> `Pages` -> `Source: main branch / root` 선택
-4. 저장 후 `https://[유저명].github.io/[레포명]/` 으로 접속
+```bash
+npm run build
+```
 
-## Vercel 배포 방법 (대안)
+산출물: `dist/`
 
-1. [vercel.com](https://vercel.com) 접속 후 GitHub 로그인
-2. 해당 레포지토리 import
-3. 자동 배포 완료
+## GitHub Pages 배포
+
+1. `package.json`의 `homepage`를 본인 URL로 수정  
+   예: `"homepage": "https://<username>.github.io/calcurlator"`
+2. `vite.config.ts`의 `base`가 레포 이름과 일치하는지 확인  
+   예: 레포가 `calcurlator`이면 `base: '/calcurlator/'`
+3. 배포 실행:
+
+```bash
+npm run deploy
+```
+
+`gh-pages`가 `dist` 내용을 `gh-pages` 브랜치에 푸시합니다.  
+GitHub 저장소 **Settings → Pages → Source: Deploy from a branch** 에서 **gh-pages** 브랜치를 선택하면  
+`https://<username>.github.io/calcurlator/` 에서 서비스됩니다.
+
+## 폴더 구조
+
+```
+src/
+├── assets/
+├── components/   # Layout, ChatBubble, QuestionCard, PhotoRestorer
+├── pages/        # Home, Interview, Preview, PhotoDemo
+├── data/         # questions.ts
+├── hooks/        # useLocalStorage
+├── utils/        # textRefiner
+├── App.tsx
+├── main.tsx
+└── index.css
+```
+
+## 기능 요약
+
+- **홈**: 히어로 타이핑 애니메이션, 작성 현황 카드, 새 챕터 시작
+- **인터뷰**: AI 질문 → 사용자 답변 → 후속 질문 흐름, 진행바, LocalStorage 저장
+- **미리보기**: 나의 답변 ↔ 자서전 문체 변환, PDF 저장(인쇄), 사진 추가 링크
+- **사진 복원**: 드래그/클릭 업로드, Before/After CSS 필터 데모, 슬라이더 비교
+
+데이터는 모두 클라이언트 LocalStorage에만 저장되며, 외부 API 호출은 없습니다.
