@@ -3,7 +3,7 @@
   "private": true,
   "version": "1.0.0",
   "type": "module",
-  "homepage": "https://jaeseung.github.io/calcurlator",
+  "homepage": "https://kimjaeseung.github.io/",
   "scripts": {
     "dev": "vite",
     "build": "tsc -b && vite build",
