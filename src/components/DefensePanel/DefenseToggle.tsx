@@ -1,8 +1,9 @@
+import { type ComponentType } from 'react';
 import { motion } from 'framer-motion';
 import { type Defense } from '../../data/defenses';
 import { Shield, Lock, Network, Scan, Cpu, Activity, Key, AlertTriangle } from 'lucide-react';
 
-const iconMap: Record<string, React.ComponentType<{ size: number }>> = {
+const iconMap: Record<string, ComponentType<{ size: number }>> = {
   shield: Shield,
   lock: Lock,
   network: Network,
